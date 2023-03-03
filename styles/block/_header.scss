@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 header{
     background-color: #541554;
     height: 70vh;
@@ -30,14 +32,32 @@ header{
 }
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1200;
+    font-size:42px;
     color: white;
     text-align: center;
-    padding-top: 4vh;
+    padding-top: 4vh; 
+    padding-left: 2vb;
+    padding-right: 2vb;
+
+    .text__color{
+        
+        color: #ecb22e;
+    }  
+
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
+.texto__header{
+    font-family: 'Roboto', sans-serif;
+    font-weight:50px;
+    line-height: 25px;
     color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-left:2vb ;
+    padding-right: 2vb;
+
 }
+
+.
