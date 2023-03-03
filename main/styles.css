@@ -1,4 +1,41 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+header {
+  background-color: #541554;
+  height: 70vh;
+}
+
+.imagenes__header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vh;
+}
+
+.imagen__header--logo {
+  width: 110px;
+  height: 30px;
+  padding-left: 4vb;
+}
+
+.imagen__header--menu {
+  width: 2.4vb;
+  height: 2.2vh;
+  padding-right: 3.5vb;
+  padding-top: 0.5vh;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 4vh;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
