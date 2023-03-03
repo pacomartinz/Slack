@@ -1,0 +1,37 @@
+.bloque01{
+    background-color: #f4ede4 ;
+}
+
+.bloque01__texto{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.logos__empresas{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+
+}
+
+.logos__empresas--container{
+    width: 100px;
+}
+
+.logos__empresas--logo{
+    width: 70px;
+}
+
+
+.imagen__blue{
+    padding-top: 30px;
+    width: 320px;
+}

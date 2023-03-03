@@ -2,11 +2,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
   background-color: #541554;
-  height: 70vh;
 }
 
 .imagenes__header {
@@ -51,4 +51,102 @@ h1 .text__color {
   text-align: center;
   padding-left: 2vb;
   padding-right: 2vb;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 6vh;
+}
+
+.boton01 {
+  width: 40vb;
+  height: 7vh;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.boton01__texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  color: #541554;
+  font-weight: 500;
+  font-size: 95%;
+  padding-top: 2.5vh;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton02 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vb;
+  height: 7vh;
+  background-color: #4285f4;
+  border-radius: 4px;
+}
+
+.boton02__texto {
+  display: flex;
+  align-content: center;
+  color: white;
+  letter-spacing: 1px;
+  padding-right: 7vb;
+  font-weight: 500;
+  font-size: 89%;
+  text-decoration: none;
+}
+
+.boton02__logoGoogle {
+  width: 42px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.video__container {
+  display: flex;
+  align-content: center;
+  padding-top: 60px;
+}
+
+.video__header {
+  width: 800px;
+}
+
+.bloque01 {
+  background-color: #f4ede4;
+}
+
+.bloque01__texto {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.logos__empresas {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logos__empresas--container {
+  width: 100px;
+}
+
+.logos__empresas--logo {
+  width: 70px;
+}
+
+.imagen__blue {
+  padding-top: 30px;
+  width: 320px;
 }/*# sourceMappingURL=styles.css.map */
