@@ -1,0 +1,124 @@
+
+.bloque02{
+    padding-bottom: 30px;
+}
+
+
+.bloque02__parte01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+    gap: 20px;
+}
+
+.bloque02__titulo{
+    color: black;
+    font-size: 205%;
+    font-weight: 500;
+}
+
+.bloque02__parte01--texto{
+    font-size: 105%;
+    font-weight: 400;
+    line-height: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+
+}
+
+.boton__empresas{
+    background-color: #541554;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    width: 350px;
+    height: 60px;
+    align-self: center;
+
+
+}
+
+.boton__ventas{
+    background-color: white;
+    border: 1px solid #541554;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    width: 350px;
+    height: 60px;
+    align-self: center;
+    
+
+}
+
+.bloque02__parte02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.porcentaje{
+    font-size: 300%;
+    color: #541554;
+    padding-top: 50px;
+}
+
+.bloque02__parte02 p{
+    width: 230px;
+    text-align: center;
+    align-self: center;
+
+}
+
+.video__curvado{
+    border-radius: 0px 115px 115px 0;
+    padding-right: 10px;
+    width: 600px;
+    height: 200px;
+    
+    
+}
+
+
+.bloque02__parte03{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+.texto01{
+    
+    font-style: italic;
+    width: 280px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 20px;  
+}
+
+.texto02{
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.texto03{
+    font-size: 80%;
+    width: 290px;
+}
+
+.texto04{
+    font-size: 60%;
+    color: grey;
+    padding-top: 50px;
+    width: 270px;
+    text-align: center;
+}
+
+

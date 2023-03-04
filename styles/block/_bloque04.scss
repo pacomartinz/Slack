@@ -1,0 +1,52 @@
+
+.bloque04{
+    height: 10px;
+}
+
+
+.bloque04__container{
+    background-color: #541554;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    clip-path: ellipse(105% 100% at center top);
+    
+    gap: 20px;
+    
+
+}
+
+.bloque04__titulo{
+    color: white;
+    text-align: center;
+    font-size: 180%;
+    
+}
+
+
+.boton__empresas{
+    background-color: #541554;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    width: 350px;
+    height: 60px;
+    align-self: center;
+
+
+}
+
+.boton__ventas{
+    background-color: white;
+    border: 1px solid #541554;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    width: 350px;
+    height: 60px;
+    align-self: center;
+    
+
+}

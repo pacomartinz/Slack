@@ -1,0 +1,55 @@
+.bloque03{
+    background-color: #f4ede4;   
+}
+
+.bloque03__titulo{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.tarjeta__container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding: 15px;
+}
+
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    
+    
+
+}
+
+.tarjeta__img{
+    width: 270px;
+    align-self: center;
+    padding-top: 15px;
+}
+
+.tarjeta__texto01{
+    color: grey;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.tarjeta__texto02{
+    font-size: 140%;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.tarjeta__texto03{
+    color: rgb(66, 66, 187);
+    padding-left: 15px;
+    padding-top: 60px;
+    font-weight:500;
+}
+

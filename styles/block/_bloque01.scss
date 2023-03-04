@@ -1,5 +1,6 @@
 .bloque01{
     background-color: #f4ede4 ;
+    padding-bottom: 60px;
 }
 
 .bloque01__texto{
@@ -15,23 +16,96 @@
 .logos__empresas{
     padding-top: 30px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: wrap; 
+    justify-content:center;
+    
+    width: 310px;
+     gap: 20px;
+     padding-left: 20px;
 
+
+
+}
+
+
+
+
+.logos__empresas--air{
+    width: 100px;
+    height: 36px;
+}
+
+.logos__empresas--nasa{
+    width: 60px;
+    height: 50px;
+
+}
+
+.logos__empresas--uber{
+    width: 80px;
+}
+
+.logos__empresas--target{
+    width: 50px;
+}
+
+.logos__empresas--tnyt{
+    width: 240px;
+}
+
+.logos__empresas--etsy{
+    width: 70px;
+    
     
 
-}
-
-.logos__empresas--container{
-    width: 100px;
-}
-
-.logos__empresas--logo{
-    width: 70px;
 }
 
 
 .imagen__blue{
     padding-top: 30px;
+    width: 320px;
+}
+
+.textos__blue{
+    font-family: 'Roboto', sans-serif;
+    font-size: 115%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+
+}
+
+.textos__blue h2{
+    font-size: 170%;
+}
+
+.textos__blue a{
+    color: rgb(67, 67, 153);
+}
+
+.textos__blue p{
+   line-height: 25px;
+}
+
+.imagen__green{
+    width: 320px;
+}
+
+.imagen__green__container{
+    display: flex;
+    justify-content:right;
+    padding-top: 40px;
+}
+
+.imagen__yellow__container{
+    display: flex;
+    justify-content:left;
+    padding-top: 110px;
+}
+
+.imagen__yellow{
     width: 320px;
 }

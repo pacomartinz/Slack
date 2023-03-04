@@ -1,0 +1,99 @@
+.bloque05{
+    background-color: white;
+    
+}
+
+.bloque05__logo{
+    width: 60px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.bloque05__lista01{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding-left: 20px;
+    gap: 20px;
+    font-weight:500;
+    font-size: 90%;
+    padding-top: 30px;
+    
+
+}
+
+.linea01{
+    border-bottom: 2px solid grey;
+    display: block;
+    position: relative;
+    left: 20px;
+    padding-top: 30px;
+    width: 350px;
+    opacity: 0.5;
+   
+    
+
+}
+
+.bloque05__lista02{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding-left: 20px;
+    gap: 30px;
+    font-weight:500;
+    font-size: 90%;
+    padding-top: 30px;
+    
+
+}
+
+.geo{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    gap: 10px;
+
+}
+
+.geo__img{
+    width: 20px;
+    
+}
+
+.download{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    gap: 10px;
+    color: rgb(45, 45, 175);
+
+}
+
+.download__img{
+    width: 25px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+
+.red{
+    width: 22px;
+}
+
+.finaltext{
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    width: 370px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    line-height: 18px;
+    padding-left: 15px;
+
+}
